@@ -15,7 +15,7 @@ namespace FIT5032_Week02.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description pagessss.";
+            ViewBag.Message = "Your application description pagessssssss.";
 
             return View();
         }
