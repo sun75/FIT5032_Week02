@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace FIT5032_Week02.Controllers
+namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
@@ -15,7 +15,7 @@ namespace FIT5032_Week02.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description pagessss.";
+            ViewBag.Message = "Your application description page.";
 
             return View();
         }
